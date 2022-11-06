@@ -43,6 +43,25 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
+/* Button pill*/
+button {
+  background-color: rgb(27, 177, 164);
+  border: none;
+  color: black;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 8rem;
+  height: 2rem;
+}
+
+.button:hover {
+  background-color: #ebebeb;
+}
+
 /* 1st div*/
 .cover-container {
   max-width: 42em;
