@@ -1,3 +1,21 @@
+// 1st: add the required packages
+const express = require('express'); // express.js
+const app = express();
+const PORT = process.env.PORT || 3001;
+
+// Express middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true })); // to Parse URL data from any form
+
+// Subdirectory 'public/css/'
+app.use(express.static(__dirname));
+
+// Server setup
+app.listen(PORT, () => {
+  console.log(`Data Visualisation listening on ${PORT} 🚀`);
+});
+
+
 // create a single page for pie-chart with random dataset
 // pie chart using D3 library
 // create json file with 10-20 dataset with additional object attributes
