@@ -13,30 +13,38 @@
 </head>
 <body class="d-flex flex-column container-fluid">
   <section id="wrapper" class="container d-flex h-100 p-3 mx-auto flex-column">
+    
+    <!--Header-->
     <main class="container cover">
-      <h3 class="cover-heading text-center">Hello there 🌏</h3>
-      <p class="lead text-center">Introducing pie-chart of World Population: Census <br />
-      <span class="text-muted">(ref: worldpopulationreview.com)</span></p>
+      <h3 class="cover-heading text-center">Pie-chart:101</h3>
+      <p class="lead text-center">Build a basic pie-chart by setting-up a random value</p>
     </main>
     <span class="lead text-center"></span>
 
     <!--Button to generate random dataset-->
     <center>
-      <button type="button" class="button">Regenerate</button>
+      <button onClick="regenerateBtn();" class="button">Regenerate</button>
     </center>
+
     <!--pie chart starts here-->
-    <section class="canva">
-    </section>
+    <div id="pie" class="card container cover">
+        <svg width="600" height="400">
+          <!-- Using g to inherit presentation attributes (an svg element)-->
+          <g class="arcs"></g>
+          <g class="labels"></g>
+        </svg>
+    </div>
+  </div>
 
   </section>
   <footer class="footer container mt-auto text-center py-2">
     <p>contact: codingowl898@gmail.com</p>
   </footer>
 
-    <!--Link for d3 files-->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="/js/d3-pie-chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--script starts from here-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"></script>
+  <script src="/js/d3.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@52.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
