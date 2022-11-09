@@ -1,6 +1,6 @@
 ## Pie-chart : Basic
 
-Generated random dataset that reflect using pie-chart 🍕📊
+The pie chart shows the distribution of a dataset that is randomly generated. The sizes of the slices reflect the data in a form of calculated percentage. 🍕📊
 <br/>
 
 ![heroku](https://img.shields.io/badge/Deployed-Heroku-blue) ![d3-js](https://img.shields.io/badge/library-D3-blue) ![license](https://img.shields.io/badge/license-MIT-green)
@@ -8,7 +8,7 @@ Generated random dataset that reflect using pie-chart 🍕📊
 <br/>
 
 ## Demo
-[Link for basic pie-chart](https://basic-pie-chart.herokuapp.com/)
+[Link for the basic pie-chart](https://basic-pie-chart.herokuapp.com/)
 <br/>
 
 ![simple-demo](public/media/basic-pie-chart.gif)

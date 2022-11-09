@@ -27,7 +27,8 @@ regenerateBtn();
 
 function regenerateBtn() {
 	let currentData = randomData[dataById]; 
-	dataById = (dataById + 10) % randomData.length; //optional to set the number of Data to be selected
+	//optional to set the number of Data to be selected
+	dataById = (dataById + 10) % randomData.length; 
 	render(currentData);
 }
 
